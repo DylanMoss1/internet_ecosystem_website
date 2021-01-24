@@ -1,42 +1,46 @@
 <template>
-  <header class="max-w-5xl mx-auto py-8 flex">
+  <header class="py-10 mx-auto bg-green-100 flex">
     <nav>
-      <ul>
-        <li>
+      <ul style="list-style:none;font-size:30px;">
+        <li style="display:inline;left:50px;position:relative;top:40px">
           <nuxt-link
-            class="text-teal-600 hover:underline"
+            class="hover:underline"
+            style="color:#7bb062"
             to="/">
-            Home
+            <strong>Home</strong>
           </nuxt-link>
         </li>
-        <li>
+        <li style="display:inline;left:170px;position:relative;top:40px">
           <nuxt-link
-            class="text-teal-600 hover:underline"
-            to="/articles">
-            Blog
+            class="hover:underline"
+            style="color:#7bb062"
+            to="/company-search">
+            <strong>Company Search</strong>
           </nuxt-link>
         </li>
       </ul>
     </nav>
     <div class="flex-1">
       <a href="/" class="block w-56 mx-auto">
-        <img src="http://a.storyblok.com/f/42016/1096x313/0353bf6654/logo2.png">
+        <img width=150px height=150px style="position:relative; left:70px" src="./internet_ecosystem_logo.png">
       </a>
     </div>
     <nav>
-      <ul>
-        <li>
+      <ul style="list-style:none;font-size:30px;">
+        <li style="display:inline;right:150px; margin:50px;position:relative;top:40px">
           <nuxt-link
-            class="text-teal-600 hover:underline"
-            to="/">
-            English
+            class="hover:underline"
+            style="color:#7bb062"
+            to="/browser-extension">
+            <strong>Browser Extension</strong>
           </nuxt-link>
         </li>
-        <li>
+        <li style="display:inline;right:60px;position:relative;top:40px">
           <nuxt-link
-            class="text-teal-600 hover:underline"
-            to="/de">
-            German
+            class="hover:underline"
+            style="color:#7bb062"
+            to="/faqs">
+            <strong>FAQs</strong>
           </nuxt-link>
         </li>
       </ul>

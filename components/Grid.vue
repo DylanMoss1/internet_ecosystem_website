@@ -7,6 +7,7 @@
       v-for="blok in blok.columns"
       class="flex-auto px-6">
       <component :blok="blok" :is="blok.component" />
+
     </li>
   </ul>
 </template>

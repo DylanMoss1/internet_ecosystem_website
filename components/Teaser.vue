@@ -5,7 +5,8 @@
     <img
       class="h-48 w-full mb-4 object-cover"
       :src="blok.image.filename" />
-    <h3 class="text-5xl">{{ blok.headline }}</h3>
+    <h1 class="text-6xl">{{ blok.headline }}</h1>
+    <h4 class="text-3xl">Save the world. Get paid doing it.</h4>
   </div>
 </template>
 
