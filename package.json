@@ -1,18 +1,25 @@
 {
-  "name": "nuxtjs",
+  "name": "internetecosystem",
   "version": "1.0.0",
-  "description": "My astonishing Nuxt.js project",
-  "author": "msweeneydev",
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start"
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "@marvr/storyblok-rich-text-vue-renderer": "^2.0.1",
+    "@tailwindcss/typography": "^0.4.0",
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "core-js": "^3.8.2",
+    "nuxt": "^2.14.12",
+    "storyblok-nuxt": "^1.3.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "@nuxtjs/tailwindcss": "^3.4.2"
+  },
+  "browser": {
+    "http": false
   }
 }
