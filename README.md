@@ -2,10 +2,6 @@
 
 https://github.com/DylanMoss1/internet-ecosystem-extension
 
-This was my main contribution to this hackathon project.
-
-It involved both a potential business idea and also a prototype website to demonstrate the idea
-
 ## The Business Idea
 
 My idea was that we could give monitary rewards to people shopping at more eco-friendly companies. Companies could pay a commission for us to advertise them on our website and in return we can pay that back to our customers. Customers visit our website to see a list of companies participating, they can then go to their website through our website and gain cashback for any purchases made. This basic model has already been proven to work with other companies such as Quidco and TopCashback but my twist was that, since this is a not-for-profit organisation to help protect the environment, we can give our profits as bonuses to customers who shop at more eco-friendly websites and buy more eco-friendly products. Using a combination of our chrome extension and independent reviews of the eco-friendliness of companies, we can judge which companies customers will be rewarded extra for shopping at. 
